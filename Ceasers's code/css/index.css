@@ -1,0 +1,10 @@
+body{
+  background-color:darkgrey;
+}
+textarea{
+  background-color:#bbbbbb;
+  border:2px solid grey;
+}
+hr{
+  width:45%;
+}

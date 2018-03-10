@@ -132,8 +132,8 @@ function fps() {
   }
   // console.log(need);
   if (player.lives===0) {
-    location.reload()
     alert("Вы проиграли\n-----------------\nсчёт: "+player.score)
+    location.reload()
   }
 }
 setInterval(fps,speed)

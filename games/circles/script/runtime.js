@@ -1,4 +1,4 @@
-//10.03.2018
+﻿//10.03.2018
 
 const can=document.getElementById('canvas')
 const ray=can.getContext('2d')
@@ -132,8 +132,8 @@ function fps() {
   }
   // console.log(need);
   if (player.lives<1) {
-    alert("Вы проиграли\n-----------------\nсчёт: "+player.score)
     location.reload()
+    alert("Вы проиграли\n-----------------\nсчёт: "+player.score)
   }
 }
 setInterval(fps,speed)

@@ -143,3 +143,4 @@ function fullColor() {
   line2.arc(450,300,x,0,pi*2)
 }
 newLevel()
+console.log('start');

@@ -131,7 +131,7 @@ function fps() {
     }
   }
   // console.log(need);
-  if (player.lives===0 || player.lives===-1) {
+  if (player.lives===0) {
     location.reload()
     alert("Вы проиграли\n-----------------\nсчёт: "+player.score)
   }
